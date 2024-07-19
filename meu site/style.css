@@ -1,0 +1,117 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
+    transform: background 0,5s linear, color 0,5s linear;
+    
+  }
+
+.container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+label{
+    border-radius: 40%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0,5s linear;
+}
+body.dark
+  {
+    background-color: black;
+    color: white;
+    
+  }
+input.checkbox{
+    visibility: hidden;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ 
+img
+  {
+    width: 800px;
+    height: 400px;
+    background-size: cover;
+   
+}
+footer
+    {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    }
+h2 {
+   padding: 60px;
+} 
+section img {
+    width: 1280px;
+    height: 450px;
+    background-image: url('game.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #030303;
+    padding: 0px 0;
+   
+}  
+main {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+} 
+aside {
+    text-align: justify;
+}
+section {
+    text-align: justify;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.saiba-mais {
+    position: center;
+    top: 4500px;
+    left: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+@media screen and (max-width: 768px) { 
+    .saiba-mais {
+     position: static;
+     width: 100%; 
+    }
+
+    p {
+        text-indent: 0;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+}
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+   
+    .saiba-mais {
+        position: static;
+        width: 100%; 
+       }
+       img {
+        max-width: 100%;
+        height: auto;
+      }
+   
+}
